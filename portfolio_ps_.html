@@ -90,6 +90,10 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            font-family: 'Montserrat',sans-serif;
+        }
         body{
             margin: 0px;
             padding: 0px;
@@ -101,6 +105,7 @@
         a{
             text-decoration: none;
             color: rgb(254, 252, 252);
+            font-size: 20px;
         }
         .main{
             display: flex;
@@ -116,10 +121,6 @@
         }
         .mid_nav li{
             margin: 12px 20px 0px 20px;
-        }
-        .home:hover {
-            font-size: 159%;
-            color: rgb(255, 115, 1);
         }
 
         .start_nav{
@@ -140,6 +141,14 @@
             padding: 8px 20px 8px 25px;
 
             }
+
+        .hero{
+            display: flex;
+            padding: 100px;
+            justify-content: space-evenly;
+            background-image: url(./465350-dangerous-anime-wallpaper.jpg) ;
+            background-size: cover;
+        }
     </style>
 </head>
 <body>
@@ -148,8 +157,8 @@
             <li><img width="70px" src="./mig1.jpg"></li>
         </ul>
         <ul class="mid_nav">
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#">Aabout</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Blog</a></li>
@@ -159,5 +168,18 @@
             <li><a href="resumepath" download="Aditya_Singh_Resume">Download_CV</a></li>
         </ul>
     </div>
+    <!--==================end of navbar==========================-->
+
+    <!--==================start of hero==========================-->
+    <section class="hero" >
+        <div>
+            <h3>Hello I'm</h3>
+            <div>Aditya Singh</div>
+            <div>Web Desinger and Photographer</div>
+        </div>
+        <div >
+            <img width="500px" src="./mig1.jpg">
+        </div>
+    </section>
 </body>
 </html>
