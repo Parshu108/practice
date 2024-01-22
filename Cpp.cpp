@@ -9,7 +9,7 @@
 //     return 0;
 // }
 //----20-01-2023
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main() {
     int a=90;
@@ -18,4 +18,5 @@ int main() {
     cout << "\nvalue of a = ";
     cout << a;
     return 0;
-}
+}*/
+//--------------
